@@ -1,0 +1,40 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  --main-light-color-text: #ffffff;
+  --main-dark-color-text: #2e2f42;
+  --secondary-light-color-text: #e7e9fc;
+  --secondary-dark-color-text: #434455;
+  --brand-color: #4d5ae5;
+  --logo-color-light: #f4f4fd;
+}
+
+body {
+  background-color: #b8b8b8;
+  font-family: var(--main-font);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* =============== HEADER =============== */
+.logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-family: var(--logo-font);
+  color: var(--main-dark-color-text);
+}
+.part-logo-web {
+  color: var(--brand-color);
+}
+/* =============== /HEADER =============== */
