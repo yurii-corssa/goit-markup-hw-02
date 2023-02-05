@@ -58,7 +58,7 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--subtle-text-color);
+  color: var(--pressed-state-color);
 }
 
 .address-link {
@@ -70,7 +70,7 @@ body {
 
 .address-link:hover,
 .address-link:focus {
-  color: var(--subtle-text-color);
+  color: var(--pressed-state-color);
 }
 /* =============== /HEADER =============== */
 
@@ -97,7 +97,7 @@ body {
 
 .hero-button:hover,
 .hero-button:active {
-  color: var(--accent-color);
+  background-color: var(--pressed-state-color);
 }
 
 .hero-button:active {
