@@ -41,6 +41,29 @@ body {
 .part-logo-web {
   color: var(--primary-brand-color);
 }
+
+.medium-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+
+.small-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /* =============== /COMPONENTS =============== */
 
 /* =============== HEADER =============== */
@@ -63,6 +86,7 @@ body {
 
 .address-link {
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
@@ -93,6 +117,8 @@ body {
   color: var(--light-text-color);
   cursor: pointer;
   letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
 }
 
 .hero-button:hover,
@@ -110,64 +136,27 @@ body {
   display: none;
 }
 
-.our-qua-list-item-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--dark-color);
-}
-
-.our-qua-list-item-subtitle {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
 /* =============== /OUR QUALITIES =============== */
 
 /* =============== WHAT ARE WE DOING =============== */
-.we-diong-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--dark-color);
-}
+
 /* =============== /WHAT ARE WE DOING =============== */
 
 /* =============== OUR TEAM =============== */
 .team {
   background-color: var(--light-color);
 }
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
+
 .team-list-item {
   background-color: #ffffff;
 }
 
 .team-list-item-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--dark-color);
 }
 
 .team-list-item-subtitle {
-  font-size: 16px;
-  line-height: 1.5;
   text-align: center;
-  letter-spacing: 0.02em;
 }
 /* =============== /OUR TEAM =============== */
 
@@ -181,9 +170,6 @@ body {
 }
 
 .footer-paragraph {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--accent-color);
 }
 /* =============== /FOOTER =============== */
@@ -197,10 +183,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
+  display: flex;
   letter-spacing: 0.04em;
   color: var(--primary-brand-color);
   background-color: var(--light-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -212,16 +200,7 @@ body {
 }
 
 .portfolio-element-list-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--dark-color);
 }
 
-.portfolio-element-list-under-title {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
 /* =============== /PORTFOLIO =============== */
